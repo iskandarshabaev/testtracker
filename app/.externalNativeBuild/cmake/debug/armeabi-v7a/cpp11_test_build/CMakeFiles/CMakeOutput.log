@@ -1,0 +1,18 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mac/Library/Android/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_5ad3e"
+[1/2] Building CXX object CMakeFiles/cmTC_5ad3e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5ad3e
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mac/Library/Android/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_de885"
+[1/2] Building CXX object CMakeFiles/cmTC_de885.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_de885
+
+Source file was:
+int main() { return 0; }

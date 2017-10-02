@@ -1,0 +1,40 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/src/main/cppLibs/include/dlib/cmake_utils/test_for_cpp11/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/mac/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"cpp11_test-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cpp11_test",
+			"buildCommand" : "/Users/mac/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build --target cpp11_test",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/mac/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/mac/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -isystem /Users/mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -std=c++11  -c ",
+					"src" : "/Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/src/main/cppLibs/include/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp",
+					"workingDirectory" : "/Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build"
+				}
+			],
+			"output" : "/Users/mac/AndroidStudioProjects/android-vision/visionSamples/FaceTracker/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cpp11_test_build/libcpp11_test.a",
+			"toolchain" : "5800180965176960905"
+		}
+	},
+	"toolchains" : 
+	{
+		"5800180965176960905" : 
+		{
+			"cCompilerExecutable" : "/Users/mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
